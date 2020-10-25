@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [[ $HOME == $PWD ]]
+if [[ $PWD =~ $HOME/* ]]
 then
-	echo $HOME
+	echo $HOME/*
 	exit 0
 else
 	echo "ERROR"

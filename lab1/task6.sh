@@ -1,8 +1,5 @@
 #!/bin/bash
 
-INFO="$(cat /var/log/anaconda/X.log | awk  '$3 == "(II)"')"
-WARNING="$(cat /var/log/anaconda/X.log | awk  '$3 == "(WW)"')"
-
-exec 1> full.log
-echo "${WARNING//"(WW)"/"WARNING "}"
-echo "${INFO//"(II)"/"INFO "}"
+INFO="/var/log/anaconda/X.log"
+awk '$3 == "(WW)" {print}' $INFO | sed 's/(WW)/Warning/' > full.log
+awk '$3 == "(II)" {print}' $INFO | sed 's/(II)/Info/' >> full.log
