@@ -34,8 +34,8 @@ do
 			esac
 		;;
 		*)
-			echo "Error: handler"
 			killall tail
+			echo "Error: handler"
 			exit 1
 		;;
 	esac

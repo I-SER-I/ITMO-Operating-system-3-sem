@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "*/5 * * * 1 tash1.sh" | crontab
+echo "*/5 * * * 0 tash1.sh" | crontab
