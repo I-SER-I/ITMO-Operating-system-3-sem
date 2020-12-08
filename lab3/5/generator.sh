@@ -11,7 +11,7 @@ do
 		exit 0
 	fi
 
-	if [[ "$line" != "+" && "$line" != "*" && "$line" != [0-9]* ]];
+	if [[ "$line" != "+" && "$line" != "*" && "$line" != [0-9] ]];
 	then
 		echo "Error command: generator"
 		exit 1

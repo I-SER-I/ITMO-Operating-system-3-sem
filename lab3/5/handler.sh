@@ -21,7 +21,7 @@ do
 			echo "Quit: handler"
 			exit 0
 		;;
-		[0-9]*)
+		[0-9])
 			case $command in
 				"+")
 					result=$(($result + $line))
