@@ -1,0 +1,6 @@
+net share NetResource=%~dp0temp
+net use * \\%computername%\NetResourceforfiles /P "C:\Windows" /C "cmd /c if @fsize GEQ 2097152 copy @path %~dp0temp /Z"
+SCHTASKS /Create /SC MINUTE /TN MyTask /TR "%~dp02.bat"
+SCHTASKS /Delete /TN MyTask
+fc %~dp0%1 C:\LAB6\Second\temp\%1
+copy *.bat commands

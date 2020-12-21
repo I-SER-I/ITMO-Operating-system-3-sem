@@ -1,0 +1,25 @@
+Сравнение файлов C:\LAB6\THIRD\service и C:\LAB6\THIRD\SERVICENEW
+***** C:\LAB6\THIRD\service
+SERVICE_NAME: BITS
+SERVICE_NAME: ClipSVC
+SERVICE_NAME: cphs
+SERVICE_NAME: defragsvc
+SERVICE_NAME: DeviceInstall
+SERVICE_NAME: diagnosticshub.standardcollector.service
+SERVICE_NAME: diagsvc
+SERVICE_NAME: DmEnrollmentSvc
+SERVICE_NAME: dmwappushservice
+SERVICE_NAME: Dnscashe
+SERVICE_NAME: DoSvc
+***** C:\LAB6\THIRD\SERVICENEW
+SERVICE_NAME: BITS
+SERVICE_NAME: cphs
+SERVICE_NAME: defragsvc
+SERVICE_NAME: DeviceInstall
+SERVICE_NAME: diagnosticshub.standardcollector.service
+SERVICE_NAME: diagsvc
+SERVICE_NAME: DmEnrollmentSvc
+SERVICE_NAME: dmwappushservice
+SERVICE_NAME: DoSvc
+*****
+
