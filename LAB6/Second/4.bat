@@ -1,0 +1,1 @@
+SCHTASKS /Delete /TN MyTask

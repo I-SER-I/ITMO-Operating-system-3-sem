@@ -1,0 +1,1 @@
+copy TEST\* TEST\merged
