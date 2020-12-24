@@ -1,0 +1,1 @@
+fc /c C:\LAB6\Third\service C:\LAB6\Third\serviceNew > check
